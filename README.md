@@ -1,2 +1,5 @@
-# horizon-theme
-:sunny: Home of the Horizon theme for VS Code
+![Horizon Banner](banner.png)
+
+<p align="center">
+  <a href="">Home of the Horizon theme</a>
+</p>
