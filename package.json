@@ -5,5 +5,8 @@
   "scripts": {
     "start": "parcel index.html -d build",
     "build": "parcel build index.html -d build"
+  },
+  "devDependencies": {
+    "sass": "^1.17.3"
   }
 }
