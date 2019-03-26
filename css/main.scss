@@ -93,3 +93,27 @@ button {
     @include button-icon();
   }
 }
+
+// SOCIAL SECTION
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2em 0;
+}
+
+.twitter,
+.facebook {
+  padding: 0.5em;
+}
+
+.twitter svg,
+.facebook svg {
+  width: 1.3em;
+  fill: $color-dark;
+  stroke: none;
+}
+
+.facebook {
+  margin-left: 0.5em;
+}
