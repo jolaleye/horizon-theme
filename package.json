@@ -10,6 +10,7 @@
     "sass": "^1.17.3"
   },
   "dependencies": {
+    "@glidejs/glide": "^3.2.7",
     "axios": "^0.18.0"
   }
 }
