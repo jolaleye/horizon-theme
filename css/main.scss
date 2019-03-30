@@ -27,31 +27,6 @@ header {
   display: flex;
 }
 
-.header_chevron {
-  display: none; // visible at larger screen sizes
-  width: 3.5rem;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  fill: none;
-  stroke: $color-dark;
-  stroke-width: 1;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  opacity: 0;
-  transform: translate(-50%, -2em);
-  animation: 1s chevron-fade linear forwards 9.25s;
-}
-
-@keyframes chevron-fade {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
 // GENERAL
 a {
   color: inherit;
@@ -186,4 +161,57 @@ button {
 
 .glide__slide img {
   width: 100%;
+}
+
+// "medium" screens - 768px
+@media (min-width: $md) {
+  html {
+    font-size: 18px;
+  }
+
+  .preview {
+    padding: 0 5vw;
+  }
+
+  .glide__bullets {
+    bottom: 2.75em;
+  }
+}
+
+// "large" screens - 1024px
+@media (min-width: $lg) {
+  html {
+    font-size: 19px;
+  }
+
+  header {
+    height: 85vh;
+  }
+
+  .source {
+    margin-left: 2em;
+  }
+
+  .preview {
+    padding: 0 10vw;
+  }
+
+  .glide__bullets {
+    bottom: 3.25em;
+  }
+}
+
+// "xl" screens - 1440px
+@media (min-width: $xl) {
+  html {
+    font-size: 21px;
+  }
+
+  .source {
+    margin-left: 2.5em;
+  }
+
+  .glide__bullets {
+    bottom: 3.5em;
+  }
 }

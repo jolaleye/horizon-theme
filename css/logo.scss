@@ -130,3 +130,36 @@
     animation: 3s split-bottom ease forwards 6s;
   }
 }
+
+// "medium" screens - 768px
+@media (min-width: $md) {
+  .logo {
+    width: 16em;
+
+    &__name {
+      font-size: 3.38em;
+    }
+  }
+}
+
+// "large" screens - 1024px
+@media (min-width: $lg) {
+  .logo {
+    width: 17em;
+
+    &__name {
+      font-size: 3.2em;
+    }
+  }
+}
+
+// "xl" screens - 1440px
+@media (min-width: $lg) {
+  .logo {
+    width: 19em;
+
+    &__name {
+      font-size: 2.9em;
+    }
+  }
+}
