@@ -147,3 +147,23 @@ button {
   font-size: 0.85em;
   letter-spacing: 0.3em;
 }
+
+// SUPPORT SECTION
+.support {
+  display: flex;
+  justify-content: center;
+  font-size: 0.8rem;
+
+  &__btn {
+    padding: 1em 2em;
+    @include dark-button();
+
+    svg {
+      width: 0.9em;
+      @include button-icon();
+      margin-right: 0;
+      margin-left: 0.5em;
+      stroke-width: 2;
+    }
+  }
+}
