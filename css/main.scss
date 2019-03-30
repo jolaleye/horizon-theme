@@ -1,5 +1,7 @@
 @import 'utils.scss';
 @import 'logo.scss';
+@import 'node_modules/@glidejs/glide/src/assets/sass/glide.core';
+@import 'node_modules/@glidejs/glide/src/assets/sass/glide.theme';
 
 *,
 *:before,
@@ -128,6 +130,7 @@ button {
 .description {
   font-weight: normal;
   text-align: center;
+  padding: 0 0.5em;
 }
 
 // STATS SECTION
@@ -166,4 +169,21 @@ button {
       stroke-width: 2;
     }
   }
+}
+
+// PREVIEWS
+.glide__arrow {
+  box-shadow: none;
+  border: none;
+
+  svg {
+    width: 2.5em;
+    stroke: hsla(0%, 100%, 100%, 0.5);
+    stroke-width: 2;
+    fill: none;
+  }
+}
+
+.glide__slide img {
+  width: 100%;
 }
