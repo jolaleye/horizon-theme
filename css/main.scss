@@ -187,19 +187,3 @@ button {
 .glide__slide img {
   width: 100%;
 }
-
-// FOOTER
-footer {
-  text-align: center;
-  padding-bottom: 3em;
-  font-size: 0.8em;
-}
-
-footer a {
-  opacity: 0.4;
-  transition: opacity 0.25s;
-
-  &:hover {
-    opacity: 0.8;
-  }
-}
