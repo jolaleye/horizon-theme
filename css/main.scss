@@ -163,6 +163,20 @@ button {
   width: 100%;
 }
 
+// INSTALLATION
+.installation {
+  text-align: center;
+
+  ol {
+    display: inline-block;
+    text-align: left;
+    list-style-position: inside;
+    line-height: 1.75;
+    margin: 1.5em 0;
+    padding: 0 0.5em;
+  }
+}
+
 // "medium" screens - 768px
 @media (min-width: $md) {
   html {
