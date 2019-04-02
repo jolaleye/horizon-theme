@@ -39,6 +39,10 @@ section {
   margin-bottom: 2em;
 }
 
+h2 {
+  font-weight: normal;
+}
+
 button {
   font-size: inherit;
   font-family: inherit;
@@ -103,7 +107,6 @@ button {
 }
 
 .description {
-  font-weight: normal;
   text-align: center;
   padding: 0 0.5em;
 }
