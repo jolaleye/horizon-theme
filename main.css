@@ -37,7 +37,9 @@ svg {
   left: 1em !important;
 }
 
-.bright-preview {
+.bright-preview,
+.dark-color-ref,
+.terminal-color-ref {
   background-color: hsl(228, 15%, 13%);
 }
 
@@ -56,4 +58,194 @@ svg {
 
 .bright-preview .glide__bullet--active {
   background-color: black;
+}
+
+/* color reference */
+.dark-syntax,
+.dark-ui,
+.bright-syntax,
+.bright-ui,
+.terminal-colors,
+.terminal-colors-bright {
+  display: grid;
+  grid-template-columns: repeat(3, 6em);
+  grid-auto-rows: 6em;
+}
+
+@media (min-width: 600px) {
+  .dark-syntax,
+  .dark-ui,
+  .bright-syntax,
+  .bright-ui,
+  .terminal-colors,
+  .terminal-colors-bright {
+    grid-template-columns: repeat(6, 6em);
+  }
+}
+
+.dark-syntax div,
+.dark-ui div,
+.bright-syntax div,
+.bright-ui div,
+.terminal-colors div,
+.terminal-colors-bright div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dark-syntax .lavender {
+  background-color: #b877db;
+}
+.dark-syntax .turquoise {
+  background-color: #25b2bc;
+}
+.dark-syntax .cranberry {
+  background-color: #e95678;
+}
+.dark-syntax .apricot {
+  background-color: #f09383;
+}
+.dark-syntax .rosebud {
+  background-color: #fab795;
+}
+.dark-syntax .tacao {
+  background-color: #fac29a;
+}
+
+.dark-ui .shadow {
+  background-color: #16161c;
+}
+.dark-ui .border_ {
+  background-color: #1a1c23;
+}
+.dark-ui .background {
+  background-color: #1c1e26;
+}
+.dark-ui .background-alt {
+  background-color: #232530;
+}
+.dark-ui .accent {
+  background-color: #2e303e;
+}
+.dark-ui .accent-alt {
+  background-color: #6c6f93;
+}
+.dark-ui .secondary-accent {
+  background-color: #e9436f;
+}
+.dark-ui .secondary-accent-alt {
+  background-color: #e95379;
+}
+.dark-ui .negative {
+  background-color: #f43e5c;
+}
+.dark-ui .positive {
+  background-color: #09f7a0;
+}
+.dark-ui .warning {
+  background-color: #27d796;
+}
+.dark-ui .modified {
+  background-color: #21bfc2;
+}
+.dark-ui .tertiary-accent {
+  background-color: #fab28e;
+}
+
+.bright-syntax .amethyst {
+  background-color: #8931b9;
+}
+.bright-syntax .elm {
+  background-color: #1d8991;
+}
+.bright-syntax .crimson {
+  background-color: #da103f;
+}
+.bright-syntax .thunderbird {
+  background-color: #dc3318;
+}
+.bright-syntax .tango {
+  background-color: #f6661e;
+}
+.bright-syntax .jaffa {
+  background-color: #f77d26;
+}
+.bright-ui .shadow {
+  background-color: #16161c;
+}
+.bright-ui .border_ {
+  background-color: #1a1c23;
+}
+
+.bright-ui .background {
+  background-color: #fdf0ed;
+}
+.bright-ui .background-alt {
+  background-color: #fadad1;
+}
+.bright-ui .accent {
+  background-color: #f9cbbe;
+}
+.bright-ui .accent-alt {
+  background-color: #f9cec3;
+}
+.bright-ui .secondary-accent {
+  background-color: #e73665;
+}
+.bright-ui .secondary-accent-alt {
+  background-color: #e84a72;
+}
+.bright-ui .negative {
+  background-color: #f43e5c;
+}
+.bright-ui .positive {
+  background-color: #07da8c;
+}
+.bright-ui .warning {
+  background-color: #1eb980;
+}
+.bright-ui .modified {
+  background-color: #1eaeae;
+}
+.bright-ui .tertiary-accent {
+  background-color: #af5427;
+}
+
+.terminal-colors .blue {
+  background-color: #26bbd9;
+}
+.terminal-colors .cyan {
+  background-color: #59e3e3;
+}
+.terminal-colors .green {
+  background-color: #29d398;
+}
+.terminal-colors .magenta {
+  background-color: #ee64ae;
+}
+.terminal-colors .red {
+  background-color: #e95678;
+}
+.terminal-colors .yellow {
+  background-color: #fab795;
+}
+
+.terminal-colors-bright .blue {
+  background-color: #3fc6de;
+}
+.terminal-colors-bright .cyan {
+  background-color: #6be6e6;
+}
+.terminal-colors-bright .green {
+  background-color: #3fdaa4;
+}
+.terminal-colors-bright .magenta {
+  background-color: #f075b7;
+}
+.terminal-colors-bright .red {
+  background-color: #ec6a88;
+}
+.terminal-colors-bright .yellow {
+  background-color: #fbc3a7;
 }
