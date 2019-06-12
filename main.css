@@ -39,7 +39,8 @@ svg {
 
 .bright-preview,
 .dark-color-ref,
-.terminal-color-ref {
+.terminal-color-ref,
+footer {
   background-color: hsl(228, 15%, 13%);
 }
 
@@ -58,6 +59,16 @@ svg {
 
 .bright-preview .glide__bullet--active {
   background-color: black;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer img {
+  filter: grayscale(100%);
 }
 
 /* color reference */
