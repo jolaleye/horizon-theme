@@ -22,3 +22,38 @@ svg {
   stroke-linecap: round;
   stroke-linejoin: round;
 }
+
+.glide__arrow {
+  box-shadow: none !important;
+  border: none !important;
+  opacity: 0.5 !important;
+}
+
+.glide__arrow--right {
+  right: 1em !important;
+}
+
+.glide__arrow--left {
+  left: 1em !important;
+}
+
+.bright-preview {
+  background-color: hsl(228, 15%, 13%);
+}
+
+.bright-preview .glide__arrow {
+  color: black;
+}
+
+.bright-preview .glide__bullet {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bright-preview .glide__bullet:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid black;
+}
+
+.bright-preview .glide__bullet--active {
+  background-color: black;
+}
