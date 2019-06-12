@@ -7,10 +7,7 @@
     "build": "parcel build index.html -d build"
   },
   "devDependencies": {
-    "sass": "^1.17.3"
-  },
-  "dependencies": {
-    "@glidejs/glide": "^3.2.7",
-    "axios": "^0.18.0"
+    "autoprefixer": "^9.6.0",
+    "tailwindcss": "^1.0.4"
   }
 }
