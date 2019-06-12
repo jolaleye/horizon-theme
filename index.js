@@ -1,4 +1,5 @@
 import axios from 'axios';
+import Glide from '@glidejs/glide';
 
 const marketplaceURL = 'https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery/';
 const downloadStat = document.getElementById('download-count');
@@ -31,3 +32,15 @@ axios
     downloadStat.innerHTML = downloadCount.toLocaleString();
     ratingStat.innerHTML = '★'.repeat(rating);
   });
+
+new Glide('.dark-glide', {
+  type: 'carousel',
+  autoplay: 5000,
+  animationDuration: 1000
+}).mount();
+
+new Glide('.bright-glide', {
+  type: 'carousel',
+  autoplay: 5000,
+  animationDuration: 1000
+}).mount();
