@@ -1,5 +1,5 @@
 ![Horizon Banner](banner.png)
 
-<p align="center">
+<h2 align="center">
   <a href="https://horizontheme.com/">Home of the Horizon theme</a>
-</p>
+</h2>
