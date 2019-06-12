@@ -42,6 +42,52 @@
     <meta name="twitter:card" content="summary" />
 
     <link rel="stylesheet" href="main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet" />
   </head>
-  <body></body>
+  <body>
+    <header class="flex flex-col items-center py-16 px-2">
+      <img class="w-4/5" src="static/alt-logo.svg" alt="Horizon logo" />
+    </header>
+
+    <section class="flex flex-col items-center py-8 px-2">
+      <div class="flex flex-row items-center justify-center mb-8">
+        <a
+          class="btn flex flex-row items-center py-3 px-6 text-white"
+          href="https://marketplace.visualstudio.com/items?itemName=jolaleye.horizon-theme-vscode"
+          target="_blank"
+        >
+          <svg class="w-5 mr-2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          Install
+        </a>
+        <a
+          class="btn flex flex-row items-center py-3 px-6 text-white ml-4"
+          href="https://github.com/jolaleye/horizon-theme-vscode"
+          target="_blank"
+        >
+          <svg class="w-5 mr-2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+            ></path>
+          </svg>
+          Source
+        </a>
+      </div>
+
+      <h1 class="text-center text-xl mb-8">A beautifully warm dual theme for Visual Studio Code</h1>
+
+      <div class="flex flex-row">
+        <span>
+          <span id="download-count">000,000</span>
+          downloads
+        </span>
+        <span id="rating" class="ml-6 tracking-widest">★★★★★</span>
+      </div>
+    </section>
+
+    <script src="index.js"></script>
+  </body>
 </html>
